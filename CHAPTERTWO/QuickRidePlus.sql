@@ -91,3 +91,6 @@ on trips.driver_id = drivers.driver_id
 group by driver_name
 order by total_amount desc
 limit 1;
+
+-- most of the vehicles booked were economy, the company should invest more in economy vehicles
+-- there is a rider with an huge gap from others in terms of fares, the rider should be given an incentive as a prize
